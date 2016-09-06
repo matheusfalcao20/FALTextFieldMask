@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EA8A98D1D7F42FC00F120DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8A98C1D7F42FC00F120DF /* AppDelegate.swift */; };
+		8EA8A98F1D7F42FC00F120DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8A98E1D7F42FC00F120DF /* ViewController.swift */; };
+		8EA8A9921D7F42FC00F120DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA8A9901D7F42FC00F120DF /* Main.storyboard */; };
+		8EA8A9941D7F42FC00F120DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA8A9931D7F42FC00F120DF /* Assets.xcassets */; };
+		8EA8A9971D7F42FC00F120DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA8A9951D7F42FC00F120DF /* LaunchScreen.storyboard */; };
+		8EA8A99F1D7F442800F120DF /* FALTextFieldMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8A99E1D7F442800F120DF /* FALTextFieldMask.swift */; };
+		8EA8A9A11D7F50C000F120DF /* FALTextFieldMask+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8A9A01D7F50C000F120DF /* FALTextFieldMask+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EA8A9891D7F42FC00F120DF /* FALTextFieldMask Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FALTextFieldMask Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA8A98C1D7F42FC00F120DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EA8A98E1D7F42FC00F120DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EA8A9911D7F42FC00F120DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EA8A9931D7F42FC00F120DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EA8A9961D7F42FC00F120DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EA8A9981D7F42FC00F120DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA8A99E1D7F442800F120DF /* FALTextFieldMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FALTextFieldMask.swift; sourceTree = "<group>"; };
+		8EA8A9A01D7F50C000F120DF /* FALTextFieldMask+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FALTextFieldMask+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA8A9861D7F42FC00F120DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EA8A9801D7F42FC00F120DF = {
+			isa = PBXGroup;
+			children = (
+				8EA8A98B1D7F42FC00F120DF /* FALTextFieldMask Example */,
+				8EA8A98A1D7F42FC00F120DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA8A98A1D7F42FC00F120DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA8A9891D7F42FC00F120DF /* FALTextFieldMask Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA8A98B1D7F42FC00F120DF /* FALTextFieldMask Example */ = {
+			isa = PBXGroup;
+			children = (
+				8EA8A98C1D7F42FC00F120DF /* AppDelegate.swift */,
+				8EA8A98E1D7F42FC00F120DF /* ViewController.swift */,
+				8EA8A99E1D7F442800F120DF /* FALTextFieldMask.swift */,
+				8EA8A9A01D7F50C000F120DF /* FALTextFieldMask+Extensions.swift */,
+				8EA8A9901D7F42FC00F120DF /* Main.storyboard */,
+				8EA8A9931D7F42FC00F120DF /* Assets.xcassets */,
+				8EA8A9951D7F42FC00F120DF /* LaunchScreen.storyboard */,
+				8EA8A9981D7F42FC00F120DF /* Info.plist */,
+			);
+			path = "FALTextFieldMask Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA8A9881D7F42FC00F120DF /* FALTextFieldMask Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA8A99B1D7F42FC00F120DF /* Build configuration list for PBXNativeTarget "FALTextFieldMask Example" */;
+			buildPhases = (
+				8EA8A9851D7F42FC00F120DF /* Sources */,
+				8EA8A9861D7F42FC00F120DF /* Frameworks */,
+				8EA8A9871D7F42FC00F120DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FALTextFieldMask Example";
+			productName = "FALTextFieldMask Example";
+			productReference = 8EA8A9891D7F42FC00F120DF /* FALTextFieldMask Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA8A9811D7F42FC00F120DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "NOCLAF TECH";
+				TargetAttributes = {
+					8EA8A9881D7F42FC00F120DF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8EA8A9841D7F42FC00F120DF /* Build configuration list for PBXProject "FALTextFieldMask Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EA8A9801D7F42FC00F120DF;
+			productRefGroup = 8EA8A98A1D7F42FC00F120DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA8A9881D7F42FC00F120DF /* FALTextFieldMask Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EA8A9871D7F42FC00F120DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA8A9971D7F42FC00F120DF /* LaunchScreen.storyboard in Resources */,
+				8EA8A9941D7F42FC00F120DF /* Assets.xcassets in Resources */,
+				8EA8A9921D7F42FC00F120DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA8A9851D7F42FC00F120DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA8A9A11D7F50C000F120DF /* FALTextFieldMask+Extensions.swift in Sources */,
+				8EA8A99F1D7F442800F120DF /* FALTextFieldMask.swift in Sources */,
+				8EA8A98F1D7F42FC00F120DF /* ViewController.swift in Sources */,
+				8EA8A98D1D7F42FC00F120DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EA8A9901D7F42FC00F120DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA8A9911D7F42FC00F120DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EA8A9951D7F42FC00F120DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA8A9961D7F42FC00F120DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EA8A9991D7F42FC00F120DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EA8A99A1D7F42FC00F120DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EA8A99C1D7F42FC00F120DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FALTextFieldMask Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "falcao.faltextfieldmask.FALTextFieldMask-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EA8A99D1D7F42FC00F120DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FALTextFieldMask Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "falcao.faltextfieldmask.FALTextFieldMask-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA8A9841D7F42FC00F120DF /* Build configuration list for PBXProject "FALTextFieldMask Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA8A9991D7F42FC00F120DF /* Debug */,
+				8EA8A99A1D7F42FC00F120DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA8A99B1D7F42FC00F120DF /* Build configuration list for PBXNativeTarget "FALTextFieldMask Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA8A99C1D7F42FC00F120DF /* Debug */,
+				8EA8A99D1D7F42FC00F120DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EA8A9811D7F42FC00F120DF /* Project object */;
+}
