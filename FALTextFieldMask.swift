@@ -1,9 +1,7 @@
 //
 //  FALTextFieldMask.swift
-//  FALTextFieldMask Example
 //
 //  Created by Matheus Falcão on 06/09/16.
-//  Copyright © 2016 NOCLAF TECH. All rights reserved.
 //
 
 import UIKit
