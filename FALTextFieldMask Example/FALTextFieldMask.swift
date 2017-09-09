@@ -10,7 +10,7 @@ import UIKit
 
 class FALTextFieldMask : NSObject, UITextFieldDelegate {
     
-    private static var sharedInstance : FALTextFieldMask!
+    fileprivate static var sharedInstance : FALTextFieldMask!
     
     /* **************************************************************************************************
      **
@@ -34,7 +34,7 @@ class FALTextFieldMask : NSObject, UITextFieldDelegate {
      **
      ****************************************************************************************************/
     
-    @objc func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+    @objc func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
         if string.characters.count == 0 {
             return true
@@ -44,33 +44,33 @@ class FALTextFieldMask : NSObject, UITextFieldDelegate {
         
         if num != nil {
             
-            if num! >= textField.mask.characters.count {
+            if num! >= textField.maskFAL.characters.count {
                 return false
             }
             
-            var charAtIndex = textField.mask[textField.mask.startIndex.advancedBy(num!)]
+            var charAtIndex = textField.maskFAL[textField.maskFAL.index(textField.maskFAL.startIndex, offsetBy: num!)]
             
             while( charAtIndex != "N" && charAtIndex != "F" && charAtIndex != "S" ) {
                 
-                textField.text = textField.text!.stringByAppendingString("\(charAtIndex)")
+                textField.text = textField.text! + "\(charAtIndex)"
                 
                 num = num! + 1
                 
-                charAtIndex = textField.mask[textField.mask.startIndex.advancedBy(num!)]
+                charAtIndex = textField.maskFAL[textField.maskFAL.index(textField.maskFAL.startIndex, offsetBy: num!)]
                 
             }
             
             switch charAtIndex {
                 
             case "N":
-                let invalidCharacters = NSCharacterSet(charactersInString: "0123456789").invertedSet
+                let invalidCharacters = CharacterSet(charactersIn: "0123456789").inverted
                 
-                return string.rangeOfCharacterFromSet(invalidCharacters, options: [], range: string.startIndex ..< string.endIndex) == nil
+                return string.rangeOfCharacter(from: invalidCharacters, options: [], range:  string.startIndex..<string.endIndex) == nil
                 
             case "F":
-                let invalidCharacters = NSCharacterSet(charactersInString: "0123456789.,").invertedSet
+                let invalidCharacters = CharacterSet(charactersIn: "0123456789.,").inverted
                 
-                return string.rangeOfCharacterFromSet(invalidCharacters, options: [], range: string.startIndex ..< string.endIndex) == nil
+                return string.rangeOfCharacter(from: invalidCharacters, options: [], range:  string.startIndex..<string.endIndex) == nil
                 
             case "S":
                 return true

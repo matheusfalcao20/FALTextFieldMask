@@ -15,12 +15,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.grayColor()
+        view.backgroundColor = UIColor.gray
     
         textfield = UITextField(frame: CGRect(x: 50, y: 50, width: 300, height: 50))
         textfield.placeholder = "Example"
         textfield.delegate = FALTextFieldMask.getInstance()
-        textfield.mask = "(NN) NNNN-NNNN"
+        textfield.maskFAL = "(NN) NNNN-NNNN"
         
         view.addSubview(textfield)
 

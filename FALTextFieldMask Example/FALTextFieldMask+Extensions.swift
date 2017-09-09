@@ -12,7 +12,7 @@ private var xoAssociationKey: UInt8 = 0
 
 extension UITextField {
     
-    var mask: String! {
+    open var maskFAL: String! {
         get {
             return objc_getAssociatedObject(self, &xoAssociationKey) as? String
         }
